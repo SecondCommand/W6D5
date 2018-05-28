@@ -1,0 +1,106 @@
+.flex-clock {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  display: flex;
+  background: orange;
+  border: 1px solid black;
+  width: 600px;
+  padding-right: 40px;
+  justify-content: space-between;
+
+}
+
+ul{
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+.clock-color{
+  color: white;
+}
+.center{
+  height: auto;
+  width: auto;
+  display: inline-block;
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
+
+.clock-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.tabs{
+
+}
+
+
+.tab-buttons{
+  display: inline-block;
+  border: 1px solid black;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: lightblue;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding-right: 10px;
+
+}
+
+.tab-buttons:hover{
+
+  background: black;
+  color: white;
+}
+
+.tabs-section{
+
+  height: auto;
+  width: auto;
+  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin
+}
+
+
+
+.tabs-ul {
+
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  margin: 0px;
+}
+
+.paragraph-div{
+  background-color: lightblue;
+  width: 98%;
+  height: 100px;
+  align-items: center;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+}
+
+p{
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  color: white;
+
+}
+.paragraphcenterplease{
+
+}
+
+#selected {
+  border-bottom: 1px solid lightblue;
+}
