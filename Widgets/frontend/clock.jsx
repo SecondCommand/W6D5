@@ -39,7 +39,7 @@ class Clock extends React.Component {
       <section className="clock-section">
         <div className="center">
           <h1 className="dont-center">{this.state.title}</h1>
-          <div className="flex-clock">
+          <div className="flex-clock"> 
             <ul>
               <li><h1 className="clock clock-color">Time:</h1></li>
               <li><h1 className="clock clock-color">Date:</h1></li>
